@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root {
+    --primary-color: rgb(53, 83, 10);
+    --text-color: white;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    text-align: center;
+    max-width: 60%;
+    margin: auto;
+}
+
+header, footer, button, a {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    padding: 10px 12px;
+    border-radius: 10px;
+}
+
+span {
+    color: rgb(255, 98, 0);
+}
+
+header {
+    display: flex;
+    padding: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    justify-content: space-around
+}
+
+.links:hover {
+    transform: scale(1.15);
+    transition: all 0.5s ease-in-out;
+}
+
+.active, .active a {
+    background-color: black;
+}
+
+.intro img {
+    width: 500px;
+    height: 400px;
+}
+
+.intro {
+    padding: 0 5em 2em 5em;
+}
+
+.technologies, .projects, .blog {
+    padding: 2em;
+}
+
+.technologies h1, .projects h1, .blog h1 {
+    padding-bottom: 1rem;
+}
+
+.mail:hover {
+    color: black;
+    transition: 0.5s;
+}
+
+footer {
+    padding: 50px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+/* PROJECTS  */
+
+.projects {
+    text-align: left;
+    padding: 0 5rem;
+}
+
+.project {
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.date {
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    display: inline;
+}
+
+.desc {
+    padding-top: 20px;
+}
+
+.attachments {
+    text-align: center;
+}
