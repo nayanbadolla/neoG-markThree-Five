@@ -62,11 +62,11 @@ header {
     padding: 0 5em 2em 5em;
 }
 
-.technologies, .projects, .blog {
+.technologies, .proj, .blog {
     padding: 2em;
 }
 
-.technologies h1, .projects h1, .blog h1 {
+.technologies h1, .proj h1, .blog h1 {
     padding-bottom: 1rem;
 }
 
